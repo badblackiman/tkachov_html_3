@@ -1,0 +1,118 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'OpenSans', serif;
+}
+main{
+    width: 1060px;
+    height: 950px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+}
+header{
+    height: 125px; 
+    padding-top: 40px;
+}
+header>img{
+    padding-bottom: 40px;
+    padding-left: 46px;
+}
+.navBar{
+    width: 966px;
+    height: 40px;
+    background: linear-gradient(0deg, #444343, #5e5e5e);
+}
+.navBar li{
+    display: inline-block;
+    padding: 0 40px;
+    line-height: 40px;
+}
+.navBar li:hover{
+    padding: 0 39px;
+    background-image: linear-gradient(0deg, #2e2e2e, #4a4a4a);
+    border:solid #838383;
+    border-width:0 1px;
+}
+.navBar a{
+    color: #ffffff;
+    font-size: 15px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    text-decoration: none
+}
+.navSide{
+    margin: 40px 0 0 46px;
+    width: 240px;
+    float: left;
+    border: solid #c8c8c8;
+    border-width: 1px 1px 0 1px;
+}
+.navSide li{
+    display: block;
+    padding:  10px 0 10px 22px;
+    border-bottom: 1px solid #c3c7c4;
+
+}
+.navSide li:hover{
+    text-indent: 15px;
+    font-weight: bold;
+}
+.navSide a{
+    color: #656363;
+    font-size: 13px;
+    text-decoration: none;
+}
+article{
+    height: 580px;
+    width: 678px;
+    float: right;
+    margin: 40px 48px 60px 0;
+}
+.foto{
+    height: 400px;
+    width: 678px;
+    border: 1px solid #c8c8c8;
+}
+.foto>img{
+    height: 307px;
+    width: 500px;
+    padding: 47px 0;
+    display: table-cell;
+}
+p{
+    margin: 39px 24px;
+    color:  #2c2b2b;
+    font-size: 13px;
+    text-align: left;
+}
+footer{
+    clear: both;
+    width: 966px;
+    height: 40px;
+    background-color: #e1e1e1;
+}
+footer li{
+    display: inline-block;
+    text-align: left;
+    padding: 0 40px;
+    line-height: 40px;
+    float: left;
+}
+footer a{
+    color: #2c2c2c;
+    font-size: 13px;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+span{
+    padding-right: 26px;
+    float: right;
+    line-height: 40px;
+    color: #2c2c2c;
+    font-size: 13px;
+}
+
